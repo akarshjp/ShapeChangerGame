@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Shape matcher!</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <main>
+    <section id="playSection">
+      <h3>Select Speed:</h3>
+      <input type ="radio" id = "slow" name = "speed" value = "slow">
+      <label for ="slow">Slow</label>
+      <input type ="radio" id = "normal" name = "speed" value = "normal">
+      <label for ="normal">Normal</label>
+      <input type ="radio" id = "fast" name = "speed" value = "fast">
+      <label for ="fast">Fast</label><br>
+        <button id="play">Play</button>
+        
+        <h3>Press the button when 2 shapes match:</h3>
+        <button id="match">Match</button>
+        <h3>Score: <span id="score">0</span></h3>
+        <h3>High Score: <span id="highscore">0</span></h3>
+    </section> 
+    <section id="shapeSection">
+      <div id="shape1"></div>
+      <div id="shape2"></div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
